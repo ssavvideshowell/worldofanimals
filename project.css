@@ -1,0 +1,143 @@
+
+
+*{box-sizing: border-box;
+
+        font-family: "Trirong", serif;
+        color: rgb(54, 85, 0);
+      }
+
+html, body {
+    padding: 0px;
+    margin:0px
+}
+.nav ul {margin:0px}
+.nav li {display:inline
+}
+.nav a {
+    display:inline-block;
+    padding: .5em;
+color:rgb(210, 241, 151);
+text-decoration: none;}
+
+.nav a:hover {background-color: rgb(75, 247, 53);}
+
+.main-nav {text-align: center;
+font-size: 1.1em;
+font-weight: lighter;
+border-bottom: solid rgb(4, 85, 18);}
+
+.main-nav li {padding: 0 5%;
+}
+
+.mainheader {
+    background-image: url("https://e0.pxfuel.com/wallpapers/395/432/desktop-wallpaper-jungle-jungle-background-on-bat-jungle-print.jpg");
+    background-size: cover;
+padding-bottom: 40px;}
+
+.title {text-align: center;
+    margin: 0;
+    font-size: 4em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style:italic}
+.title-large {font-size: 9em;
+color: rgb(174, 228, 48);}
+
+.subtitle {
+    font-size: 2em;
+    color: rgb(12, 136, 12);  
+    text-align: center;  
+}
+body {
+    background-color: rgb(81, 119, 14);}
+
+    .content.section {
+        margin: 1em;
+        }
+        .container {
+           max-width: 2000px; 
+           margin: 0px auto;
+           padding: 0 1.5em;
+        }
+    .subtitle{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: normal;
+        color:rgb(6, 71, 6);
+        text-align: center
+    }
+    .Africa {
+       border-radius: 50%;
+       padding-left: 20px;
+       padding-top: 20px;
+       padding-right: 20px;
+       padding-bottom: 20px;
+    }
+    .antarctica  {
+        border-radius: 50%;
+        border-radius: 50%;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+     }
+     .Asia  {
+        border-radius: 50%;
+        border-radius: 50%;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+     }
+     .australia  {
+        border-radius: 50%;
+        border-radius: 50%;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+     }
+     .europe  {
+        border-radius: 50%;
+        border-radius: 50%;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+     }
+     .namerica
+     {
+        border-radius: 50%;
+        border-radius: 50%;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+     }
+     .samerica
+     {
+        border-radius: 50%;
+        border-radius: 50%;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+     }
+     .main-footer {
+        background-image: url("https://e0.pxfuel.com/wallpapers/395/432/desktop-wallpaper-jungle-jungle-background-on-bat-jungle-print.jpg");
+        color:rgb(4, 51, 23);
+        padding: .25em ;
+     }
+     .footer {
+        color: rgb(131, 226, 35);
+     }
+     .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    text-align: center;}
+    @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      

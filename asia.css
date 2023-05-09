@@ -1,0 +1,134 @@
+
+*{box-sizing: border-box;
+
+    font-family: "Trirong", serif;
+    color: rgb(255, 202, 123);
+  }
+
+html, body {
+    padding: 0px;
+    margin:0px
+
+}
+
+.menu{display:block;    
+}
+.menu li {
+    display:block;
+    list-style-type: none;
+}
+
+.nav ul {margin:0px}
+.nav li {display:inline-block
+   
+}
+.nav a {
+    display:inline-block;
+    padding: .5em;
+color:rgb(210, 241, 151);
+text-decoration: none;}
+
+.nav a:hover {background-color: rgb(248, 212, 49);}
+
+.main-nav {text-align: center;
+font-size: 1.1em;
+font-weight:lighter;
+border-bottom: solid rgb(8, 56, 16);}
+
+.main-nav li {padding: 0 5%;
+}
+
+
+.mainheader {
+    background-image: url("https://m.media-amazon.com/images/I/51qd1xHle6L._AC_.jpg");
+    background-size: cover;
+padding-bottom: 40px;}
+
+
+body {
+    background-color: rgb(177, 22, 30);}
+
+    .content.section {
+        margin: 1em;
+        }
+        .container {
+           max-width: 2000px; 
+           margin: 0px auto;
+           padding: 0 1.5em;
+        }
+        
+        .carousel-button {
+            position:absolute;
+            z-index:2;
+            background: none;
+            border: none;
+            font-size:4rem;
+            top:50%;
+            transform:translateY(-50%);
+            color: rgba(255,255,255,.5);
+            cursor:pointer;
+            border-radius: .25rem;
+            padding: 0 .5rem;
+            background-color: rgba(0,0,0, .1);
+        }
+        .carousel-control:hover,
+        .carousel-control:focus {
+            color:white;
+            background-color:rgba(0,0,0, .2)
+        }
+        .carousel-control:focus{
+            outline:1px solid black
+        }
+        .carousel-control-prev {
+            left:1rem;
+        }
+        .carousel-control-next {
+            right: 1rem;
+        }
+
+
+.elephant {
+    border-radius: 50%;
+        border-radius: 50%;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        
+}
+.cat {
+    border-radius: 50%;
+        border-radius: 50%;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+}
+
+.paragraph {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style:italic}
+
+
+.main-footer {
+    background-image: url("https://m.media-amazon.com/images/I/51qd1xHle6L._AC_.jpg");
+    color:rgb(4, 51, 23);
+    padding: .25em ;
+ }
+ .footer {
+    color: rgb(250, 185, 88);
+ }
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+text-align: center;}
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
